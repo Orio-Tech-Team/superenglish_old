@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+
+<html
+  lang="en"
+  class="light-style"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="assets/"
+  data-template="vertical-menu-template-free"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>Super English</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/Group.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="assets/css/demo.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="assets/vendor/js/helpers.js"></script>
+    <script src="assets/js/config.js"></script>
+    <style>
+   ul.subs-list {
+  list-style: none;
+  padding: 0px 0px !important;
+}
+.modal .modal-header .btn-close {
+    margin-top: 0.75rem !important;
+    margin-right: 1rem !important;
+}
+
+/*ul.subs-list li:before {*/
+/*  content: '✓';*/
+/*}*/
+ul.subs-list li:before {
+  
+    padding: 0.2rem;
+    color: white;
+    margin-right: 0.5rem !important;
+}
+
+</style>
+  </head>
+  <body class="bg-white">
+    <!-- Content -->
+
+    <div class="container-fluid-xxl">
+      <nav class="navbar navbar-example navbar-expand-lg">
+        <div class="container justify-content-around">
+          <a class="navbar-brand" href="index.html"
+            ><img src="assets/img/icons/brands/logo.png" alt="" class="img-fluid w-75" style="width: 200px !important;"
+          /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-ex-3">
+            <span class="navbar-toggler-icon">
+                <img src="assets/img/avatars/hamburger-menu.svg" />
+                </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar-ex-3">
+            <div class="navbar-nav me-auto ">
+              <a class="nav-item nav-link active px-4" href="#features">Features</a>
+              <a class="nav-item nav-link px-4" href="javascript:void(0)">Testimonials</a>
+              <a class="nav-item nav-link px-4" href="#pricing">Pricing</a>
+            </div>
+              <button type="button" class="btn rounded-pill btn-outline-primary btn-sky-green outline-btn mr-1 " onclick="freeTrail();" >
+                <!-- <span class="tf-icons bx bx-bell"></span> -->
+                &nbsp; Free trial
+              </button>
+              <button type="button" class="btn rounded-pill btn-sky-green"  onclick="subscribeBtn();">
+                <!-- <span class="tf-icons bx bx-bell"></span> -->
+                &nbsp; Subscribe
+              </button>
+         
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid px-4 pt-5 text-center hero-section mt-5">
+      <div class="lc-block col-lg-6 mx-auto mb-4">
+        <div editable="rich">
+          <h2 class="display-3 fw-bold text-black hero-title mb-5">
+            Super English install karain aur mazay mai email aur message likhain
+          </h2>
+        </div>
+      </div>
+
+      <div class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center bg-layout">
+     
+        <img class="img-fluid layout-img-1" src="/assets/img/backgrounds/Email-Screen-for-WEB.png" alt="" />
+          <img class="img-fluid layout-img-2" src="/assets/img/backgrounds/Email-Screen-firRES.png" alt="" />
+      </div>
+      <button type="button" class="btn rounded-pill btn-sky-green mt-4" onclick="subscribeBtn();">
+        <!-- <span class="tf-icons bx bx-bell"></span> -->
+        &nbsp; Subscribe
+      </button>
+    </div>
+
+    <!-- featured section -->
+    <div class="container px-4 pt-5 text-center mt-5">
+      <div class="lc-block col-lg-6 mx-auto mb-4">
+        <div editable="rich">
+          <h2 class="display-3 fw-bold text-black mb-5 hero-title" id="features">Features</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="card-wrapper">
+            <div class="row">
+                        <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="card-content">
+                      <div class="card-img">
+                        <img src="assets/img/elements/alpha.png" alt="" />
+                      </div>
+                      <h5 class="my-4 text-dark">English</h5>
+                      <p class="card-text">Roman main english type karian aur [A] ka button dabatay hi super english ban jayein</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="card-content">
+                      <div class="card-img">
+                        <img src="assets/img/elements/Frame9.png" alt="" />
+                      </div>
+                      <h5 class="my-4 text-dark">Auto Reply</h5>
+                      <p class="card-text">Agar type bhi nahi karna tou bas [star icons] ka button click karain aur english mai reply kardain</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="card-content">
+                      <div class="card-img">
+                        <img src="assets/img/elements/shoes-1.svg" alt="" />
+                      </div>
+                      <h5 class="my-4 text-dark">Casual tone</h5>
+                      <p class="card-text">Burger ban kay email karni hai? Bas [Sneaker] wala button click karain aur chill hojaien</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="card-content">
+                      <div class="card-img">
+                        <img src="assets/img/elements/Frame11.png" alt="" />
+                      </div>
+                      <h5 class="my-4 text-dark">Formal Tone</h5>
+                      <p class="card-text"> Big boss ki email ayee hai? Ya client bohat bhari hai? No worries - Suit Tie wail tone main email karain</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- another section -->
+    <div class="container mb-0 text-center mt-5 pt-5">
+      <div class="lc-block col-lg-6 mx-auto mb-5">
+        <div editable="rich mb-5">
+          <h2 class="display-3 fw-bold text-black mb-3 hero-title">By the numbers</h2>
+
+          <h5 class="">How Super English helps you get more out of all communication</h5>
+        </div>
+      </div>
+      <div class="card-number-wrapper">
+        <div class="row gap-3 d-flex justify-content-center mx-auto w-75">
+          <div class="col-lg-4 my-2 shadow number-card">
+            <h4 class="percent-div">58%</h4>
+            <div class="col-div">
+              <div class="right">
+                <p>
+                  Create a 58% better email message by thinking in your native language and translating with Super
+                  English
+                </p>
+              </div>
+              <div class="left"><img src="assets/img/illustrations/1.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-2 shadow number-card">
+            <h4 class="percent-div">47%</h4>
+            <div class="col-div">
+              <div class="right">
+                <p>Get 47% more positive responses to your email message by replying within an hour</p>
+              </div>
+              <div class="left"><img src="assets/img/illustrations/2.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-2 shadow number-card">
+            <h4 class="percent-div">63%</h4>
+            <div class="col-div">
+              <div class="right">
+                <p>
+                  63% person of well written emails get a response the same day. Late Super English speed things up for
+                  you
+                </p>
+              </div>
+              <div class="left"><img src="assets/img/illustrations/3.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-2 shadow number-card">
+            <h4 class="percent-div">91%</h4>
+            <div class="col-div">
+              <div class="right">
+                <p>Statistics say 91% of career success can be achieved by short and succinct communication</p>
+              </div>
+              <div class="left"><img src="assets/img/illustrations/4.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured section -->
+    <div class="container-fluid px-4 pt-5 mb-0 text-center mt-5">
+      <div class="lc-block col-lg-6 mx-auto mb-2">
+        <div editable="rich">
+          <h2 class="display-3 fw-bold text-black hero-title w-75 mx-auto">Even more features are coming soon</h2>
+        </div>
+      </div>
+      <div class="lc-block col-lg-6 mx-auto mb-5">
+        <div editable="rich">
+          <h5 class="lead mx-auto">
+            Fast loading, modern and accessible. With Super English your message are instantly converted to English
+            without any delayed gratification
+          </h5>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row bg-img-soon">
+          <div class="col-lg-4 square-card mb-3 planBox">
+            <div class="col-row">
+              <div><h3 class="card-title text-white text-4xl px-4">1</h3></div>
+              <div class="left-side">
+                <span>
+                  <ul class="w-75" style="font-size: 1.1rem">
+                    <li>Set message tone suitable to your situation</li>
+                    <li>1. Formal</li>
+                    <li>2. Semi Formal</li>
+                    <li>3.Casual</li>
+                  </ul>
+                </span>
+                <span class="imgbox"> 
+                    <img src="assets/img/icons/unicons/V-1.png" alt="" style="width: 4rem; height: 5rem" class="img-1"/>
+                    <img src="assets/img/elements/1.svg" alt="" style="width: 4rem; height: 5rem" class="img-2"/>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 square-card mb-3">
+            <div class="col-row">
+              <div><h3 class="card-title text-white text-4xl px-4">2</h3></div>
+              <div class="left-side">
+                <span>
+                  <ul class="w-75" style="font-size: 1.1rem">
+                    <li>Translate from Regional and local languages</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div class="right-side">
+              <img src="assets/img/icons/unicons/V-2.png" class="elements-img" alt="" style="width: 5rem; height: 5rem" />
+              <img src="assets/img/elements/2.svg" alt="" 
+                style="width: 4rem; height: 5rem" class="img-2"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured section -->
+    <div class="container-fluid px-4 py-5 mb-5 text-center mt-5" id="pricing">
+      <div class="lc-block col-lg-6 mx-auto mb-4">
+        <div editable="rich">
+          <h2 class="display-3 fw-bold text-black mb-5 hero-title">Find a plan</h2>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <div class="sub-wrapper mx-auto">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="card-header pb-0">
+                      <h4 class="text-start">Standard</h4>
+                      <hr />
+                    </div>
+                    <div class="card-body p-0">
+                      <div class="media d-flex">
+                        <div class="media-body">
+                          <!-- <h3 class="">Starter</h3> -->
+                          <span>
+                            <ul class="list-style">
+                              <li class="mb-3">Write up to 10 emails a day with Super English</li>
+                              <li class="mb-3"><span class="rupees">Rs. 4000</span> per month</li>
+                              <li class="mb-3">
+                                <form onsubmit="return false">
+                                  <button
+                                    type="button"
+                                    class="btn rounded-pill btn-sky-green plan-card"
+                                    style="font-size: 0.9rem"
+                                    onclick="subscribeBtn();"
+                                  >
+                                    <!-- <span class="tf-icons bx bx-bell"></span> -->
+                                    &nbsp; Subscribe
+                                  </button>
+                                </form>
+                              </li>
+                              <li>
+                                This includes:
+                                <ul class="subs-list">
+                                  <li class="li-list"><span style="margin-right: 0.8rem;"><img src="../assets/img/icons/unicons/check.png" /></span>10 replies per day</li>
+                                  <li class="li-list"><span style="margin-right: 0.8rem;"><img src="../assets/img/icons/unicons/check.png" /></span>All features</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--<div class="card-footer"></div>-->
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="card-header pb-0">
+                      <h4 class="text-start">Pro</h4>
+                      <hr />
+                    </div>
+
+                    <div class="card-body p-0">
+                      <div class="media d-flex">
+                        <div class="media-body">
+                          <!-- <h3 class="">Starter</h3> -->
+                          <span>
+                            <ul class="list-style">
+                              <li class="mb-3">Write up to 10 emails a day with Super English</li>
+                              <li class="mb-3"><span class="rupees">Rs. 7500</span> per month</li>
+                              <li class="mb-3">
+                                <form onsubmit="return false">
+                                  <button
+                                    type="button"
+                                    class="btn rounded-pill btn-sky-green  plan-card"
+                                    style="font-size: 0.9rem"
+                                    onclick="subscribeBtn();"
+                                  >
+                                      
+                                    <!-- <span class="tf-icons bx bx-bell"></span> -->
+                                    &nbsp; Subscribe
+                                  </button>
+                                </form>
+                              </li>
+                              <li>
+                                This includes:
+                                <ul class="subs-list">
+                                  <li class="li-list"><span style="margin-right: 0.8rem;"><img src="../assets/img/icons/unicons/check.png" /></span>10 replies per day</li>
+                                  <li class="li-list"><span style="margin-right: 0.8rem;"><img src="../assets/img/icons/unicons/check.png" /></span>All features</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--<div class="card-footer"></div>-->
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="card-header pb-0">
+                      <h4 class="text-start">Business</h4>
+                      <hr />
+                    </div>
+                    <div class="card-body p-0">
+                      <div class="media d-flex">
+                        <div class="media-body">
+                          <!-- <h3 class="">Starter</h3> -->
+                          <span>
+                            <ul class="list-style">
+                              <li class="mb-3">
+                                Make your team Super English. No limit on number of users or emails. Get in touch!
+                              </li>
+                              <!-- <li><span class="rupees">Rs. 7500</span>
+                                        per
+                                        month</li> -->
+                              <!--<li class="mb-3">-->
+                                <!--<form onsubmit="return false">-->
+                                <!--  <button-->
+                                <!--    type="button"-->
+                                <!--    class="btn rounded-pill btn-sky-green"-->
+                                <!--      data-bs-toggle="modal"-->
+                                <!--    data-bs-target="#backDropModal"-->
+                                <!--    style="font-size: 0.9rem"-->
+                                <!--  >-->
+                                    <!-- <span class="tf-icons bx bx-bell"></span> -->
+                                <!--    &nbsp; -->
+                                <!--  </button>-->
+                                <!--</form>-->
+                              <!--</li>-->
+                              
+                              
+                              <!--modal-->
+                              
+                                  <div class="col-lg-4 col-md-6">
+                      <!--<small class="text-light fw-semibold">Toggle Between Modals</small>-->
+                      <div class="my-3">
+                        <button
+                          type="button"
+                          class="btn rounded-pill btn-sky-green  plan-card"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modalToggle"
+                           style="font-size: 0.9rem"
+                        >
+                         Contact us
+                        </button>
+
+                        <!-- Modal 1-->
+                        <div
+                          class="modal fade"
+                          id="modalToggle"
+                          aria-labelledby="modalToggleLabel"
+                          tabindex="-1"
+                          style="display: none"
+                          aria-hidden="true"
+                        >
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modalToggleLabel">Enter your Email</h5>
+                                <button
+                                  type="button"
+                                  class="btn-close"
+                                  data-bs-dismiss="modal"
+                                  aria-label="Close"
+                                ></button>
+                              </div>
+                              <div class="modal-body">    
+                              <div class="row g-2">
+                                  <div class="col mb-0">
+                                    <label for="emailBackdrop" class="form-label">Email</label>
+                                    <input
+                                      type="text"
+                                      id="emailBackdrop"
+                                      class="form-control"
+                                      placeholder="xxxx@xxx.xx"
+                                    />
+                                  </div>
+                               
+                                </div></div>
+                              <div class="modal-footer">
+                                <button
+                                  class="btn rounded-pill btn-sky-green"
+                                  data-bs-target="#modalToggle2"
+                                  data-bs-toggle="modal"
+                                  data-bs-dismiss="modal"
+                                >
+                                Submit
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal 2-->
+                        <!--<div-->
+                        <!--  class="modal fade"-->
+                        <!--  id="modalToggle2"-->
+                        <!--  aria-hidden="true"-->
+                        <!--  aria-labelledby="modalToggleLabel2"-->
+                        <!--  tabindex="-1"-->
+                     
+                        <!--  <div class="modal-dialog modal-dialog-centered">-->
+                        <!--    <div class="modal-content">-->
+                        <!--      <div class="modal-header">-->
+                        <!--        <h5 class="modal-title" id="modalToggleLabel2">Modal 2</h5>-->
+                        <!--        <button-->
+                        <!--          type="button"-->
+                        <!--          class="btn-close"-->
+                        <!--          data-bs-dismiss="modal"-->
+                        <!--          aria-label="Close"-->
+                        <!--        ></button>-->
+                        <!--      </div>-->
+                        <!--      <div class="modal-body">-->
+                        <!--              <div class="row g-2">-->
+                        <!--          <div class="col mb-0">-->
+                        <!--            <label for="emailBackdrop" class="form-label">Email</label>-->
+                        <!--            <input-->
+                        <!--              type="text"-->
+                        <!--              id="emailBackdrop"-->
+                        <!--              class="form-control"-->
+                        <!--              placeholder="xxxx@xxx.xx"-->
+                        <!--            />-->
+                        <!--          </div>-->
+                               
+                        <!--        </div>-->
+                        <!--      </div>-->
+                        <!--      <div class="modal-footer">-->
+                        <!--        <button-->
+                        <!--          class="btn btn-primary"-->
+                        <!--          data-bs-target="#modalToggle"-->
+                        <!--          data-bs-toggle="modal"-->
+                        <!--          data-bs-dismiss="modal"-->
+                        <!--        >-->
+                        <!--          Back to first-->
+                        <!--        </button>-->
+                        <!--      </div>-->
+                        <!--    </div>-->
+                        <!--  </div>-->
+                        <!--</div>-->
+                      </div>
+                    </div>
+                              <!--modal-->
+                              <li>
+                                This includes:
+                                <ul class="subs-list">
+                                  <li class="li-list"><span style="margin-right: 0.8rem;"><img src="../assets/img/icons/unicons/check.png" /></span>All the replies you need</li>
+                                  <li class="li-list"><span style="margin-right: 0.8rem;"><img src="../assets/img/icons/unicons/check.png" /></span>All features</li>
+                                  <li class="li-list"><span style="margin-right: 0.8rem;"><img src="../assets/img/icons/unicons/check.png" /></span>Early access to new features</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--<div class="card-footer"></div>-->
+                </div>
+              </div>
+              <p class="my-4">Or start our Free Plan with up to 2 translations per day.
+              <!--<a onclick="subscribeBtn();" class="cursor-pointer ">Try it!</a>-->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row text-center mx-auto">
+          <div class="col-sm-12 col-md-12 mx-auto">
+            <h6>Super English</h6>
+            <p class="text-justify w-75 mx-auto mb-3 text-white" style="padding: 0 1rem">
+              Super English translation products give your writing skills wings.<br> Stop spending money on English Courses,
+              use Super English
+            </p>
+            <div class="lc-block d-grid gap-2 d-sm-flex justify-content-center mb-5 mt-4 mx-auto">
+              <button type="button" class="btn rounded-pill btn-sky-green hero-btn footer-btn" onclick="subscribeBtn();">
+                <span><img src="assets/img/favicon/Group.png" alt="" /></span>
+                &nbsp; Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12 col-sm-6 col-xs-12 mx-auto">
+            <p class="copyright-text text-white">Super English. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- / Content -->
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/vendor/libs/popper/popper.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Page JS -->
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+        function subscribeBtn(){
+          window.location.href='main-content/login.html';  
+        } 
+    </script>
+     <script>
+        function freeTrail(){
+          window.location.href='main-content/login.html';  
+        } 
+    </script>
+  </body>
+</html>
